@@ -9,9 +9,11 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+		<link rel="stylesheet" href="{{ asset('font-awesome-4.7.0/css/font-awesome.min.css') }}">
 
         <!-- Scripts -->
 		<link rel="stylesheet" href="{{ mix('css/app.css') }}">
+		<link rel="stylesheet" href="{{ mix('css/bootstrap.css') }}">
 		<script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body>

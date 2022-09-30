@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\View\Creators\AdminCreator;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +25,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Добавляет к названию отображения '-admin' для пользователя админа.
+        View::creator([
+		    'warcraft.group.index',
+			'warcraft.ability.index',
+			'warcraft.ability.list',
+		], AdminCreator::class);
     }
 }
