@@ -1,0 +1,14 @@
+vendor
+node_modules
+Dockerfile
+.dockerignore
+.editorconfig
+.env
+.phpunit*
+README.md
+package*
+phpunit*
+postcss*
+tailwind*
+webpack*
+database/database.sqlite
