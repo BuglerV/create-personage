@@ -1,3 +1,12 @@
-## О проекте
+## О чем это
 
-Демонстрация использования [BuglerV/laravel-stepper](https://github.com/BuglerV/laravel-stepper).
+Простой пример использования [BuglerV/Stepper](https://github.com/BuglerV/laravel-stepper)
+
+За основу взята идея создания персонажа из игры Warcraft. Нужно в несколько шагов выбрать себе рассу, класс и профессию.
+
+## Вход
+
+- user : 12345678
+- admin : 12345678
+
+Админ может редактировать списки классов.
